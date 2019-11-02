@@ -1,3 +1,4 @@
+import os, sys
 import cv2
 
 cam = cv2.VideoCapture(0)
@@ -6,6 +7,8 @@ cv2.namedWindow("test")
 
 img_counter = 0
 folder_name = input("Enter person name: ")
+folder_path = './dataset/{}'.format(folder_name)
+os.mkdir(folder_path)
 while True:
     ret, frame = cam.read()
     cv2.imshow("test", frame)
