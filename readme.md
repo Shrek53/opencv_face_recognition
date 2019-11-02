@@ -14,9 +14,12 @@ pip install -r requirements.txt
 ```bash
 python collect_data_set/collect_training_data.py
 ```
-Hit [SPACE] for taking pictures  
+_Write the name of the person in the terminal_   
+
+In the opencv window  
+_Hit [SPACE] for taking pictures  
 Hit [ESC] to end  
-Put images in the correctly named folder  
+Put images in the correctly named folder_  
 
 **Extract Embadding from images**
 ```bash
