@@ -19,7 +19,7 @@ _Write the name of the person in the terminal_
 In the opencv window  
 _Hit [SPACE] for taking pictures  
 Hit [ESC] to end  
-Put images in the correctly named folder_  
+Images will be automatically putted in the correctly named folder  
 
 **Extract Embadding from images**
 ```bash
